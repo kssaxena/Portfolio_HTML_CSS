@@ -1,0 +1,131 @@
+body {
+  background-color: #000000;
+  /* background-color: #E5E5E5; */
+  /* background-color: #14213D; */
+
+  /* background-image: url(/wallpaperflare.com_wallpaper.jpg); */
+  /* background-color: black; */
+  /* background-color: #334756; */
+  /* background-color: #8ECAE6; */
+  /* background-color: gray; */
+  background-size: cover;
+
+}
+
+.header {
+  /* height: 200px; */
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #082032; */
+  /* background-color: #219EBC; */
+  background-color: #000000;
+}
+
+.logo {
+  max-width: 1224;
+  width: 10%;
+  margin: 250px;
+  display: flex;
+  position: relative;
+  /* left: 0px; */
+  /* background-color: #FF4C29; */
+  font-size: 50px;
+  font-family: "Bruno Ace", cursive;
+  color: #FFB703;
+  font-weight: bolder;
+  text-decoration: none;
+  /* font-family: 'Play', sans-serif; */
+  /* font-family: "Bruno Ace SC", cursive; */
+  /* font-family: "Comfortaa", cursive; */
+  /* color: rgb(255, 255, 255); */
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  /* background-color: #FF4C29; */
+  right: 50px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar a {
+  margin: 5px;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+  /* color: #023047; */
+  color: white;
+  padding: 5px;
+  font-weight: bolder;
+  font-family: "Comfortaa", cursive;
+  border: 2px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  /* font-family: 'Bruno Ace', cursive; */
+  /* font-weight :20000px; */
+}
+
+.navbar a:hover {
+
+  padding: 10px;
+  border: transparent;
+  background-color: #FFB703;
+  transition: 80ms;
+  color: black;
+
+}
+
+.social-icons {
+  width: 100%;
+  display: inline-flex;
+  position: relative;
+  margin-top: 20%;
+  align-items: center;
+  justify-content: center;
+  /* margin: 10px; */
+}
+
+.social-icon {
+  /* background-color: aqua; */
+  color: white;
+  font-family: "Comfortaa", cursive;
+  border: 1px solid #FFB703;
+  border-radius: 9px;
+  padding: 20px;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5%;
+  font-size: 32px;
+  font-weight: bold;
+  /* color: black; */
+  /* color: white; */
+  /* padding: 10px; */
+  /* color: aliceblue; */
+  /* border-radius: 5px solid yellow; */
+}
+
+.social-icon:hover {
+  font-weight: bolder;
+  font-size: 38px;
+  transition: 100ms;
+  animation: ease-in-out;
+  color: #000000;
+  padding: 25px;
+  background-color: #FFB703;
+}

@@ -1,0 +1,362 @@
+body {
+  background-color: #000000;
+  /* background-color: #E5E5E5; */
+  /* background-color: #14213D; */
+
+  /* background-image: url(/wallpaperflare.com_wallpaper.jpg); */
+  /* background-color: black; */
+  /* background-color: #334756; */
+  /* background-color: #8ECAE6; */
+  /* background-color: gray; */
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  /* height: 200px; */
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #082032; */
+  /* background-color: #219EBC; */
+  background-color: #000000;
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  /* background-color: #FF4C29; */
+  right: 50px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar a {
+  margin: 5px;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+  /* color: #023047; */
+  color: white;
+  padding: 5px;
+  font-weight: bolder;
+  font-family: "Comfortaa", cursive;
+  border: 2px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  /* font-family: 'Bruno Ace', cursive; */
+  /* font-weight :20000px; */
+}
+
+.navbar a:hover {
+
+  padding: 10px;
+  border: transparent;
+  background-color: #FFB703;
+  transition: 80ms;
+  color: black;
+
+}
+
+.logo {
+  max-width: 1224;
+  width: 10%;
+  margin: 250px;
+  display: flex;
+  position: relative;
+  /* left: 0px; */
+  /* background-color: #FF4C29; */
+  font-size: 50px;
+  font-family: "Bruno Ace", cursive;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  /* font-family: 'Play', sans-serif; */
+  /* font-family: "Bruno Ace SC", cursive; */
+  /* font-family: "Comfortaa", cursive; */
+  /* color: rgb(255, 255, 255); */
+}
+
+.name {
+  font-family: "Bruno Ace", cursive;
+  width: 40%;
+  flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  color: #FFB703;
+  letter-spacing: 5px;
+  margin-left: 10%;
+  top: 200px;
+  font-size: 32px;
+  /* color: wheat; */
+  /* background-color: #FFB703; */
+  justify-content: center;
+  /* top: 200px; */
+  /* margin-top: 20%; */
+  align-items: center;
+}
+
+.name p {
+  color: azure;
+  /* background-color: aqua; */
+  width: 20%;
+}
+
+.first_name {
+  width: 100%;
+  display: flex;
+  position: relative;
+  /* background-color:yellowgreen; */
+  margin: auto;
+}
+
+
+
+.container {
+
+  /* background-color: #FFB703; */
+  /* display: flex; */
+  width: 20%;
+  position: absolute;
+  transform: translate(-50% -50%);
+  border-radius: 5px;
+  max-width: 1224;
+  margin-left: 70%;
+  overflow: hidden;
+  /* padding: 50px; */
+  align-items: center;
+  justify-content: center;
+  /* background-color: black; */
+  /* margin-top: 8%; */
+  /* border: #FFB703 dashed 10px; */
+}
+
+.image {
+  /* width: 100%; */
+  display: flex;
+  animation: slide 10s infinite;
+  /* position: absolute; */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(0);
+  }
+
+  30% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(-100%);
+  }
+
+  55% {
+    transform: translateX(-200%);
+  }
+
+  75% {
+    transform: translateX(-200%);
+  }
+
+  80% {
+    transform: translateX(-300%);
+  }
+
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+.image img {
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px; */
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.profession {  
+  display: inline-flex;
+  /* align-items: center; */
+  justify-content: center;
+  top: 55%;
+  /* background-color: #FFB703; */
+  /* background-color: aqua; */
+  position: absolute;
+  width: 55%;
+  font-family: "Comfortaa", cursive;
+  /* position: relative; */
+  margin-left: 5%;
+  /* color: #FFB703; */
+}
+
+.profession .static_text {
+  color: whitesmoke;
+  font-size: 22px;
+  /* background-color: blue; */
+}
+
+.profession .dynamic_text {
+  /* position: relative; */
+  margin-top: 0%;
+  height: 90px;
+  line-height: 60px;
+  overflow: hidden;
+  /* line-height: 40px; */
+}
+
+.dynamic_text li {
+  position: relative;
+  color: #FFB703;
+  /* background-color: aqua; */
+  list-style: none;
+  top: 0;
+  font-size: 22px;
+
+  animation: slide 6s steps(4) infinite;
+}
+@keyframes slide{
+  100%{
+    top: -360px;
+  }
+}
+
+.static_text h2{
+  position: fixed;
+  left: 10vw;
+}
+
+.multiText{
+  color: #FFB703;
+}
+
+/* .dynamic_text li span{
+  position: relative;
+  width: fit-content;
+}
+.dynamic_text li span::after{
+  top: 0;
+  content: "";
+  position: absolute;
+  left:   0;
+  left:  0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  border-left: 2px solid #FFB703;
+  animation: typing 1.5s steps(30) infinite;
+} */
+@keyframes typing{
+  100%{
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+
+.contact_and_moreabout {
+  top: 300px;
+  margin-left: 10%;
+  display: flex;
+  position: relative;
+  /* background-color: #FFB703; */
+  width: fit-content;
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_button {
+  /* background-color: aqua; */
+  /* width: fit-content; */
+  /* flex-wrap: wrap; */
+  /* font-size: 50px; */
+
+  padding: 5%;
+  display: flex;
+  position: relative;
+}
+
+.contact_button button {
+  color: white;
+  font-size: 20px;
+  /* background-color: blue; */
+  background-color: transparent;
+  width: 140px;
+  padding: 5px;
+  font-weight: bolder;
+  font-family: "Comfortaa", cursive;
+  border: 2px solid #FFB703;
+  border-radius: 5px;
+  /* border-top: none;
+  border-right: none;
+  border-left: none; */
+}
+
+.contact_button :hover {
+  border-radius: 5px;
+  padding: 10px;
+  border: transparent;
+  background-color: #FFB703;
+  transition: 80ms;
+  color: black;
+
+}
+
+
+.about_button {
+  padding: 5%;
+  display: flex;
+  position: relative;
+  /* background-color: aqua; */
+  /* font-size: 50px; */
+
+}
+
+.about_button button {
+  color: white;
+  font-size: 20px;
+  /* background-color: blue; */
+  background-color: transparent;
+  width: 160px;
+  padding: 5px;
+  font-weight: bolder;
+  font-family: "Comfortaa", cursive;
+  border: 2px solid #FFB703;
+  border-radius: 5px;
+  /* border-top: none;
+  border-right: none;
+  border-left: none; */
+  /* background-color: blue; */
+  /* width: 90px; */
+}
+
+.about_button :hover {
+  border-radius: 5px;
+  padding: 10px;
+  border: transparent;
+  background-color: #FFB703;
+  transition: 80ms;
+  color: black;
+
+}
